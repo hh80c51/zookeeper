@@ -47,7 +47,7 @@ public class HelloZK {
 		String retValue = null;
 		
 		byte[] byteArray = zk.getData(nodePath, false, new Stat());
-		retValue = new String(retValue);
+		retValue = new String(byteArray);
 		
 		return retValue;
 	}
