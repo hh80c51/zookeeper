@@ -17,7 +17,7 @@ public class HelloZK {
 	*/
 	private static final Logger logger = Logger.getLogger(HelloZK.class);
 	//实例变量
-	private static final String CONNECTSTRING = "192.168.174.132:2181";
+	private static final String CONNECTSTRING = "192.168.174.133:2181";
 	private static final String PATH = "/atguigu";
 	private static final int SESSION_TIMEOUT = 50*1000;
 	
